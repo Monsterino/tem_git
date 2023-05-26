@@ -34,4 +34,3 @@ jobs:
       - run: cmake . -DPATCH_VERSION=${{ github.run_number }} -DGTEST_ROOT=/home/runner/work/otus-cpp-professional/gtest
       - run: cmake --build .
       - run: cmake --build . --target test
-      - run: cmake --build . --target package
