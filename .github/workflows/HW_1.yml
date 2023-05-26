@@ -8,12 +8,12 @@ on:
   push:
     branches:
       - Hw_1
-      - dev_H1
+      - dev
 
   pull_request:
     branches:
       - Hw_1
-      - dev_H1
+      - dev
      
 
   # Allows you to run this workflow manually from the Actions tab
